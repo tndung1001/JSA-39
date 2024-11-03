@@ -1,17 +1,17 @@
 let productList = [
     {
         "name": "T-Shirt",
-        "img": "Images/T-Shirt.jpg", // Adjusted path
+        "img": "Images/T-Shirt.jpg",
         "price": 150000
     },
     {
         "name": "Shirt",
-        "img": "Images/Shirt.jpg", // Adjusted path
+        "img": "Images/Shirt.jpg", 
         "price": 200000
     },
     {
         "name": "Socks",
-        "img": "Images/Socks.jpg", // Adjusted path
+        "img": "Images/Socks.jpg", 
         "price": 30000
     }
 ];
