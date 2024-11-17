@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    padding: 8px 16px
+}
+
+.movie-list{
+    display: flex;
+    justify-content: center;
+}
+
+.movie-list .movie-item{
+    width: 12%;
+    margin: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px;
+    border-radius: 16px;
+}
+
+.movie-list .movie-item img{
+    display: inline-block;
+    width: 100%;
+    height: auto
+}
+
+.movie-item .movie-name{
+    font-size: 18px;
+    padding: 8px 4px;
+}
